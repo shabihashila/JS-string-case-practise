@@ -6,14 +6,5 @@ const person = {
   married: true,
 };
 
-person.age = 45;
-console.log(person);
-
-person.name = "jerin jahan";
-person["age"] = 50;
-person["profession"] = "dr";
-person["married"] = false;
-
-const surname = "name";
-person.name = "huhuhu";
-console.log(person);
+person["age"] = 44;
+console.log(person.age);
